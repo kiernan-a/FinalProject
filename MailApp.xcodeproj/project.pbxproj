@@ -11,6 +11,8 @@
 		3C086AF227F8852200EFEAC6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C086AF127F8852200EFEAC6 /* ContentView.swift */; };
 		3C086AF427F8852600EFEAC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C086AF327F8852600EFEAC6 /* Assets.xcassets */; };
 		3C086AF727F8852600EFEAC6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C086AF627F8852600EFEAC6 /* Preview Assets.xcassets */; };
+		3C5492732815EF8D00DA3A70 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C5492722815EF8D00DA3A70 /* File.swift */; };
+		3C98B74627FF74E700A23D28 /* Email.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C98B74527FF74E700A23D28 /* Email.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		3C086AF127F8852200EFEAC6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3C086AF327F8852600EFEAC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3C086AF627F8852600EFEAC6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		3C5492722815EF8D00DA3A70 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = File.swift; path = ../../File.swift; sourceTree = "<group>"; };
+		3C98B74527FF74E700A23D28 /* Email.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Email.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				3C086AEF27F8852200EFEAC6 /* MailAppApp.swift */,
+				3C98B74527FF74E700A23D28 /* Email.swift */,
 				3C086AF127F8852200EFEAC6 /* ContentView.swift */,
+				3C5492722815EF8D00DA3A70 /* File.swift */,
 				3C086AF327F8852600EFEAC6 /* Assets.xcassets */,
 				3C086AF527F8852600EFEAC6 /* Preview Content */,
 			);
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C086AF227F8852200EFEAC6 /* ContentView.swift in Sources */,
+				3C5492732815EF8D00DA3A70 /* File.swift in Sources */,
 				3C086AF027F8852200EFEAC6 /* MailAppApp.swift in Sources */,
+				3C98B74627FF74E700A23D28 /* Email.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,6 +275,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MailApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 566G2XBGQK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -295,6 +304,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"MailApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 566G2XBGQK;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
